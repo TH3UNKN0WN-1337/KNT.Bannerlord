@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using Bannerlord.ButterLib.MBSubModuleBaseExtended;
+using HarmonyLib;
 using TaleWorlds.CampaignSystem;
 using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
@@ -18,13 +19,7 @@ public class SubModule : MBSubModuleBaseEx
         base.OnSubModuleLoad();
 
         _types = typeof(SubModule).Assembly.GetTypes();
-    }
-
-    protected override void OnSubModuleUnloaded()
-    {
-        base.OnSubModuleUnloaded();
-
-        _types = null;
+        new Harmony("KNT.Bannerlord.Religion").PatchAll();
     }
 
     protected override void InitializeGameStarter(Game game, IGameStarter starterObject)
