@@ -48,12 +48,4 @@
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.1" PrivateAssets="all" IncludeAssets="compile" />
 	</ItemGroup>
 
-	<ItemGroup>
-	  <Folder Include="ModuleData\" />
-	  <Folder Include="CampaignBehaviors\" />
-	  <Folder Include="MissionBehaviors\" />
-	  <Folder Include="GameModels\" />
-	  <Folder Include="MissionViews\" />
-	</ItemGroup>
-
 </Project>
