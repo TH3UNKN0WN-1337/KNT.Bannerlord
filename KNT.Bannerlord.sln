@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KNT.Bannerlord.Religion", "KNT.Bannerlord.Religion\KNT.Bannerlord.Religion.csproj", "{0E67D368-CE5A-4CBA-93F3-FD46DB4F1EA7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E67D368-CE5A-4CBA-93F3-FD46DB4F1EA7}.Debug|x64.ActiveCfg = Debug|x64
+		{0E67D368-CE5A-4CBA-93F3-FD46DB4F1EA7}.Debug|x64.Build.0 = Debug|x64
+		{0E67D368-CE5A-4CBA-93F3-FD46DB4F1EA7}.Release|x64.ActiveCfg = Release|x64
+		{0E67D368-CE5A-4CBA-93F3-FD46DB4F1EA7}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9623D9BA-3426-4081-BE3C-AFCA64AD4DEB}
+	EndGlobalSection
+EndGlobal
