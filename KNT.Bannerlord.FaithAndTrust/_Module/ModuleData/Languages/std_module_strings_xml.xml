@@ -1,4 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
 	<tags>
 		<tag language="English" />
@@ -9,7 +10,8 @@
 		<!-- endregion Common -->
 
 		<!-- region Condition Failure Reason Texts -->
-		<string id="6nyYgNhpXV" text="{PAYER.LINK} has not enough Denar. {?PAYER.GENDER}she{?}he{\\?} needs at least {AMOUNT}{GOLD_ICON}." />
+		<string id="6nyYgNhpXV"
+		        text="{PAYER.LINK} has not enough Denar. {?PAYER.GENDER}she{?}he{\\?} needs at least {AMOUNT}{GOLD_ICON}." />
 		<!-- endregion Condition Failure Reason Texts -->
 	</strings>
 </base>

@@ -1,8 +1,6 @@
-﻿using HarmonyLib;
-using System.ComponentModel;
-using Bannerlord.UIExtenderEx;
+﻿using Bannerlord.UIExtenderEx;
+using HarmonyLib;
 using TaleWorlds.CampaignSystem;
-using TaleWorlds.CampaignSystem.Party.PartyComponents;
 using TaleWorlds.Core;
 using TaleWorlds.MountAndBlade;
 
@@ -19,7 +17,6 @@ public sealed class SubModule : MBSubModuleBase
         var uiExtender = new UIExtender(Namespace);
         uiExtender.Register(typeof(SubModule).Assembly);
         uiExtender.Enable();
-
     }
 
     protected override void OnSubModuleUnloaded()
@@ -31,7 +28,6 @@ public sealed class SubModule : MBSubModuleBase
     {
         if (gameStarter is not CampaignGameStarter campaignStarter)
         {
-            return;
         }
     }
 }
