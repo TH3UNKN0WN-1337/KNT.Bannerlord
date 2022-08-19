@@ -1,0 +1,5 @@
+﻿<Config>
+	<SpriteCategory Name="ui_civil_war">
+		<AlwaysLoad/>
+	</SpriteCategory>
+</Config>

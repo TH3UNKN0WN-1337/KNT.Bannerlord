@@ -3,23 +3,39 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KNT.Bannerlord.Religion", "KNT.Bannerlord.Religion\KNT.Bannerlord.Religion.csproj", "{19868B5A-2C71-444B-8934-40AE3C9EDCE8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KNT.Bannerlord.FaithAndTrust", "KNT.Bannerlord.FaithAndTrust\KNT.Bannerlord.FaithAndTrust.csproj", "{4600E0B7-62AB-4D38-B3FE-C5A9A0A34880}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KNT.Bannerlord.Core", "KNT.Bannerlord.Core\KNT.Bannerlord.Core.csproj", "{043F0BB9-5D0B-453A-8882-BC1841D16F6B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
 		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{19868B5A-2C71-444B-8934-40AE3C9EDCE8}.Debug|x64.ActiveCfg = Debug|x64
-		{19868B5A-2C71-444B-8934-40AE3C9EDCE8}.Debug|x64.Build.0 = Debug|x64
-		{19868B5A-2C71-444B-8934-40AE3C9EDCE8}.Release|x64.ActiveCfg = Release|x64
-		{19868B5A-2C71-444B-8934-40AE3C9EDCE8}.Release|x64.Build.0 = Release|x64
+		{4600E0B7-62AB-4D38-B3FE-C5A9A0A34880}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{4600E0B7-62AB-4D38-B3FE-C5A9A0A34880}.Debug|Any CPU.Build.0 = Debug|x64
+		{4600E0B7-62AB-4D38-B3FE-C5A9A0A34880}.Debug|x64.ActiveCfg = Debug|x64
+		{4600E0B7-62AB-4D38-B3FE-C5A9A0A34880}.Debug|x64.Build.0 = Debug|x64
+		{4600E0B7-62AB-4D38-B3FE-C5A9A0A34880}.Release|Any CPU.ActiveCfg = Release|x64
+		{4600E0B7-62AB-4D38-B3FE-C5A9A0A34880}.Release|Any CPU.Build.0 = Release|x64
+		{4600E0B7-62AB-4D38-B3FE-C5A9A0A34880}.Release|x64.ActiveCfg = Release|x64
+		{4600E0B7-62AB-4D38-B3FE-C5A9A0A34880}.Release|x64.Build.0 = Release|x64
+		{043F0BB9-5D0B-453A-8882-BC1841D16F6B}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{043F0BB9-5D0B-453A-8882-BC1841D16F6B}.Debug|Any CPU.Build.0 = Debug|x64
+		{043F0BB9-5D0B-453A-8882-BC1841D16F6B}.Debug|x64.ActiveCfg = Debug|x64
+		{043F0BB9-5D0B-453A-8882-BC1841D16F6B}.Debug|x64.Build.0 = Debug|x64
+		{043F0BB9-5D0B-453A-8882-BC1841D16F6B}.Release|Any CPU.ActiveCfg = Release|x64
+		{043F0BB9-5D0B-453A-8882-BC1841D16F6B}.Release|Any CPU.Build.0 = Release|x64
+		{043F0BB9-5D0B-453A-8882-BC1841D16F6B}.Release|x64.ActiveCfg = Release|x64
+		{043F0BB9-5D0B-453A-8882-BC1841D16F6B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {564AA2D8-0694-4DAF-BCAE-95715CEFCB64}
+		SolutionGuid = {28B0D384-1543-4638-95B2-6EE63DDD14D4}
 	EndGlobalSection
 EndGlobal

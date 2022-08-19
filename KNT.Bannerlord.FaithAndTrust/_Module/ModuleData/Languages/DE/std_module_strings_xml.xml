@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="string">
+	<tags>
+		<tag language="Deutsch" />
+	</tags>
+	<strings>
+		<!-- region Common -->
+		<string id="T5Ec1WQig1" text="Platzhalter" />
+		<!-- endregion Common -->
+
+		<!-- region Condition Failure Reason Texts -->
+		<string id="6nyYgNhpXV" text="{PAYER.LINK} hat nicht genügend Denar. {?PAYER.GENDER}Sie{?}Er{\\?} benötigt mindestens {AMOUNT}{GOLD_ICON}." />
+		<!-- endregion Condition Failure Reason Texts -->
+	</strings>
+</base>
