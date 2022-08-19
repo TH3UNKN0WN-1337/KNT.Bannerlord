@@ -5,7 +5,7 @@ using TaleWorlds.Localization;
 
 namespace KNT.Bannerlord.Core.Conditions;
 
-public class HasEnoughGoldCondition : Condition<HasEnoughGoldCondition>
+public sealed class HasEnoughGoldCondition : Condition<HasEnoughGoldCondition>
 {
     private new static TextObject FailedReasonText => GameTexts.FindText("str_condition.has_enough_gold");
 

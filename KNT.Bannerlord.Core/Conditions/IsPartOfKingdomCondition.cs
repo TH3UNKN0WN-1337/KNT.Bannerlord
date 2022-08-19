@@ -3,7 +3,7 @@ using TaleWorlds.Localization;
 
 namespace KNT.Bannerlord.Core.Conditions;
 
-public class IsPartOfKingdomCondition : Condition<IsPartOfKingdomCondition>
+public sealed class IsPartOfKingdomCondition : Condition<IsPartOfKingdomCondition>
 {
     private new static TextObject FailedReasonText => new("{=XXXXX}{CHARACTER_NAME} has not enough {GOLD_ICON}.");
 
