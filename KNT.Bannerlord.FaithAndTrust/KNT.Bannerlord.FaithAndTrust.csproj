@@ -23,7 +23,7 @@
     <PackageReference Include="Bannerlord.ButterLib" Version="2.1.9" IncludeAssets="compile" />
     <PackageReference Include="Bannerlord.UIExtenderEx" Version="2.2.5" IncludeAssets="compile" />
     <PackageReference Include="Bannerlord.MCM" Version="4.7.7" IncludeAssets="compile" />
-    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" PrivateAssets="all" IncludeAssets="compile" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" PrivateAssets="all" IncludeAssets="compile" />
     <!--<PackageReference Include="Bannerlord.ReferenceAssemblies.Core.EarlyAccess" Version="$(GameVersion).*" PrivateAssets="All" />
     <PackageReference Include="Bannerlord.ReferenceAssemblies.Native.EarlyAccess" Version="$(GameVersion).*" PrivateAssets="All" />
     <PackageReference Include="Bannerlord.ReferenceAssemblies.StoryMode.EarlyAccess" Version="$(GameVersion).*" PrivateAssets="All" />
